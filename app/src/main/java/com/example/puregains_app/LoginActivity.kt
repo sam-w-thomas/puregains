@@ -17,6 +17,9 @@ class LoginActivity : AppCompatActivity() {
         val tabLayout : TabLayout = findViewById(R.id.login_register_nav)
         val pageView : ViewPager = findViewById(R.id.login_register_pager)
 
+        tabLayout.addTab(tabLayout.newTab().setText("Login"))
+        tabLayout.addTab(tabLayout.newTab().setText("Register"))
+
         val loginAdapter : FragmentPagerAdapter = LoginFragmentAdapter(supportFragmentManager,tabLayout.tabCount)
         pageView.adapter = loginAdapter
         tabLayout.setupWithViewPager(pageView)
