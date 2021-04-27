@@ -7,7 +7,7 @@
     android:layout_height="match_parent">
 
     <EditText
-        android:id="@+id/username_field"
+        android:id="@+id/email_field"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:autofillHints=""
@@ -23,41 +23,41 @@
         app:layout_constraintWidth_percent="0.7" />
 
     <EditText
-        android:id="@+id/password_field"
+        android:id="@+id/username_field"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:autofillHints=""
-        android:contentDescription="Enter email field"
+        android:contentDescription="Enter username"
         android:hint="@string/choose_username"
         android:inputType="textPassword"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/username_field"
+        app:layout_constraintTop_toBottomOf="@+id/email_field"
         app:layout_constraintVertical_bias="0.0"
         app:layout_constraintWidth_percent="0.7" />
 
     <EditText
-        android:id="@+id/password_field3"
+        android:id="@+id/password_field"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:autofillHints=""
-        android:contentDescription="Enter email field"
+        android:contentDescription="Enter password"
         android:hint="@string/enter_password"
         android:inputType="textPassword"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/password_field2"
+        app:layout_constraintTop_toBottomOf="@+id/username_field"
         app:layout_constraintVertical_bias="0.0"
         app:layout_constraintWidth_percent="0.7" />
 
     <EditText
-        android:id="@+id/password_field2"
+        android:id="@+id/birth_field"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -74,7 +74,7 @@
         app:layout_constraintWidth_percent="0.7" />
 
     <Button
-        android:id="@+id/register_button"
+        android:id="@+id/signup_button"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
@@ -87,7 +87,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/password_field3"
+        app:layout_constraintTop_toBottomOf="@+id/birth_field"
         app:layout_constraintVertical_bias="0.0"
         app:layout_constraintWidth_percent="0.7" />
 
